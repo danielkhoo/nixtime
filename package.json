@@ -1,0 +1,21 @@
+{
+  "name": "nixtime",
+  "version": "1.0.0",
+  "description": "Javascript CLI tool to get and convert unix timestamps",
+  "author": "Daniel Khoo",
+  "license": "MIT",
+  "homepage": "https://github.com/danielkhoo/nixtime",
+  "repository": "github:danielkhoo/nixtime",
+  "bin": {
+    "nixtime": "cli.js"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "keywords": [
+    "unix",
+    "timestamp",
+    "time",
+    "date"
+  ]
+}
