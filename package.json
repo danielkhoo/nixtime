@@ -5,7 +5,10 @@
   "author": "Daniel Khoo",
   "license": "MIT",
   "homepage": "https://github.com/danielkhoo/nixtime",
-  "repository": "github:danielkhoo/nixtime",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkhoo/nixtime.git"
+  },
   "bin": {
     "nixtime": "cli.js"
   },
@@ -17,5 +20,13 @@
     "timestamp",
     "time",
     "date"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/danielkhoo/nixtime/issues"
+  },
+  "main": "cli.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
